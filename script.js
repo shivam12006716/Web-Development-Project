@@ -1,5 +1,5 @@
 let navbar = document.querySelector('.navbar');
-
+/*dev8/
 document.querySelector('#menu-btn').onclick = () =>{
     navbar.classList.toggle('active');
     searchForm.classList.remove('active');
