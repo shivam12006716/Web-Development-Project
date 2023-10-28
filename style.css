@@ -8,7 +8,128 @@
   --border: 0.1rem solid rgba(255, 255, 255, 0.3);
   --coffee: #ba825a;
 }
+.icons {
+  display: flex;
+  align-items: center;
+}
 
+.search-container {
+  display: flex;
+  align-items: center;
+}
+
+#left-textbox {
+  border: none;
+  background: transparent;
+  outline: none;
+  padding: 5px;
+  font-size: 14px;
+  width: 150px; /* Adjust the width as needed */
+}
+
+.search-input-wrapper {
+  position: relative;
+}
+
+#search-input {
+  border: none;
+  border-bottom: 1px solid #293855; /* Underline style */
+  background: transparent;
+  outline: none;
+  padding: 5px;
+  font-size: 14px;
+  width: 0;
+  transition: width 0.3s;
+}
+
+#search-btn {
+  color: #555;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+#search-btn:hover + .search-input-wrapper input {
+  width: 150px;
+}
+
+.footer {
+  background-color: #333; /* Set the background color for the footer section */
+  color: #fff; /* Set the text color for the content within the footer */
+  padding: 20px; /* Adjust padding as needed */
+  text-align: center; /* Center the text within the footer */
+}
+
+.footer span {
+  font-size: 24px; /* Adjust the font size for the "Connect & Share" text */
+  display: block; /* Make the span a block-level element */
+  margin-bottom: 20px; /* Adjust margin as needed */
+}
+
+.share {
+  display: flex;
+  justify-content: center; /* Center the social icons horizontally */
+}
+
+/* Add the social media icon styles as previously discussed */
+.share a {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 24px;
+  margin: 5px;
+}
+
+#facebook-icon {
+  background-color: skyblue;
+}
+
+#twitter-icon {
+  background-color: black;
+}
+
+#instagram-icon {
+  background: linear-gradient(45deg, pink, #ff69b4);
+}
+
+#linkedin-icon {
+  background-color: blue;
+}
+
+#pinterest-icon {
+  background-color: red;
+}
+
+#facebook-icon,
+#twitter-icon,
+#instagram-icon,
+#linkedin-icon,
+#pinterest-icon {
+  width: 50px;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  color: white;
+  font-size: 24px;
+  margin: 5px;
+}
+
+div {
+ border-radius: 20px;
+}
+img {
+  border-radius: 20px;
+}
+button {
+  border-radius: 20px;
+}
+.map {
+  border-radius: 20px;
+}
 * {
   font-family: "Roboto", sans-serif;
   margin: 0;
